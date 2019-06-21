@@ -30,4 +30,4 @@ Create your costume_stores migration here
       t.timestamps null: false
     end
   end
-en
+end
