@@ -1,14 +1,14 @@
 # Create your costume_stores migration here
 
-class CreateCostumes < ActiveRecord::Migration[4.2]
+class CreateCostumestores < ActiveRecord::Migration[4.2]
   def change
-    create_table :costumes do |t|
+    create_table :costumestores do |t|
       t.string :name
       t.string :size
       t.string :image_url
       t.float :price
 
-      t.timestamps null: false
+      t.timestamps 
     end
   end
 end
