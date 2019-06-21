@@ -22,7 +22,7 @@
   
 # end
 
-class CreateCostumes < ActiveRecord::Migration
+class CreateCostumes < ActiveRecord::Migration[4.2]
   def change
     create_table :costumes do |t|
       t.string :name
@@ -30,7 +30,7 @@ class CreateCostumes < ActiveRecord::Migration
       t.string :image_url
       t.float :price
 
-      t.timestamps
+      t.timestamps 
     end
   end
 end
