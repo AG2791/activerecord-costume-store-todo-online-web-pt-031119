@@ -5,7 +5,7 @@ class CreateCostumestores < ActiveRecord::Migration[4.2]
     create_table :costumestores do |t|
       t.string :name
       t.string :location
-      t.string :cosmstume_inventory
+      t.string :costume_inventory
       t.float :price
 
       t.timestamps 
